@@ -48,3 +48,56 @@ body{
     margin: 8px;
     width: 32px;
   }
+
+  /* PRODUTOS   */
+ 
+.titulo__itens{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 40px 0px 0px;
+}
+
+.itens{
+    display: flex;
+    flex-wrap: wrap;
+    margin:  0 auto;
+}
+
+.coffee__produto{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 200px;
+}
+
+.cafe__img{
+    height: 200px;
+    object-fit:cover;
+    width: 100%;
+}
+
+.informacoes{
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+    margin: 15px 0px 25px  0px;
+}
+
+.preco{
+    font-weight: bold;
+}
+
+.links-produtos{
+    color: #000000;
+}
+
+
+.titulo__itens{
+    margin: 60px 0 20px 0;
+    color: aliceblue;
+}
+
+
+
