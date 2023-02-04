@@ -100,4 +100,85 @@ body{
 }
 
 
+/*Responsivo*/
 
+@media screen and (min-width:320px) and (max-width:360px){
+    #logo{
+        width: 250px;
+    }
+    .coffee__produto{
+        width: 270px;
+        margin: 20px auto;
+        
+    }
+}
+
+@media screen and (min-width:360px) and  (max-width:479px){
+    header{
+        height: 50px;
+    }
+    #logo{
+        width: 280px;
+    }
+    .coffee__produto{
+        width: 300px;
+        margin: 20px auto;
+    }
+    .titulo__itens{
+        font-size: 25px;
+    margin: 45px 0px 0px;
+
+    }
+}
+@media screen and (min-width:480px) and  (max-width:540px){
+
+.coffee__produto{
+    margin: 20px auto;
+    width: 210px;
+}
+
+
+}
+@media screen and (min-width:600px) and  (max-width:750px){
+
+    .coffee__produto{
+        margin: 20px auto;
+        width: 270px;
+        
+    }
+}
+@media screen and (min-width:751px) and  (max-width:900px){
+
+    .coffee__produto{
+        width: 200px;
+        margin: 20px 25px;
+    }
+}
+@media screen and (max-width:999px){
+    body{
+        overflow-x: hidden ;
+    }
+    .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 30vw;
+        height: 30vh;
+        background: black;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+    .nav-list li{
+        margin-left: 0;
+        opacity: 0;
+    }
+    .nav-list:active{
+        transform: translateX(0);
+    }
+    
+    .mobile-menu{
+        display: block;
+    }
+}
